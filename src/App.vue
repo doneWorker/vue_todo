@@ -1,9 +1,19 @@
 <template>
-  <div class="Todo App">
+  <div class="todo-app">
     <TodoForm />
     <TodoList :todos="todos" />
   </div>
 </template>
+
+<style scoped>
+.todo-app {
+  width: 800px;
+  margin: auto;
+}
+body {
+  font-family: Helvetica sans-serif;
+}
+</style>
 
 <script>
 // @ is an alias to /src
